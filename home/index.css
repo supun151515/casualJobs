@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+
+.fixedback {
+  width: 100%;
+  height: auto;
+
+}
+.no-padding {
+	padding: 0;
+}
+ 
+.imagetext{
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   bottom:90%;left:auto; right:auto;
+   margin: 0 auto;
+   font-family: 'Anton', sans-serif;
+   font-size: 2.2vh;
+}
+.imagetext2{
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   bottom:70%;left:auto; right:auto;
+   margin: 0 auto;
+   font-size: 2.5vh;
+   font-family: 'Kalam', cursive;
+}
+
+.imagetext3 {
+   border: 5px solid #c3cbd9;
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   bottom:5%;left:auto; right:auto;
+   margin: 0 auto;
+   font-family: 'Anton', sans-serif;
+   font-size: 2.2vh;
+   background-color: black;
+   opacity: 0.8;
+   color: white;
+}
+.imagetext33 {
+	font-size: 1.2vh;
+}
+
+.supportcomp {
+	width: 10vw;
+ 
+}
+.comholdersub{
+   width: 25%;
+  display: inline-block;
+ 
+}
+.comholder {
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.awesome {
+  font-family: futura;
+  font-style: italic;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #313131;
+  font-weight: bold;
+  position: absolute;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+  }
+}
